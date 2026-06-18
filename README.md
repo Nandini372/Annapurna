@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# Annapurna – Food Donation & Distribution Platform
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/2109966e-7823-43ac-890c-15aeeb2f5cad
+Annapurna is a web-based platform developed to reduce food wastage and improve food accessibility by connecting food donors with individuals, NGOs, and organizations in need. The platform streamlines the process of donating, managing, and distributing surplus food, ensuring that edible food reaches the right beneficiaries instead of being wasted.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+* Food donation listing and management
+* User-friendly and responsive interface
+* Donor and recipient registration
+* Real-time availability of food donations
+* Dashboard for tracking donation activities
+* Secure and efficient food distribution workflow
+* Mobile-friendly design
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2109966e-7823-43ac-890c-15aeeb2f5cad) and start prompting.
+* React.js
+* TypeScript
+* Vite
+* Tailwind CSS
+* shadcn/ui
+* React Query
+* React Router DOM
+* Recharts
+* Date-fns
+* Lucide React
 
-Changes made via Lovable will be committed automatically to this repo.
+## Installation and Setup
 
-**Use your preferred IDE**
+### Clone the Repository
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+git clone https://github.com/Nandini372/Annapurna.git
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Navigate to the Project Directory
 
-Follow these steps:
+```bash
+cd Annapurna
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Install Dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Run the Development Server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start on a local development server. Open the URL displayed in the terminal to access the application.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```text
+src/
+├── components/
+├── pages/
+├── hooks/
+├── services/
+├── assets/
+├── styles/
+└── App.tsx
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Use Case
 
-## What technologies are used for this project?
+The platform helps:
 
-This project is built with:
+* Restaurants donate surplus food
+* Event organizers share leftover food
+* NGOs identify available food donations
+* Individuals contribute food to those in need
+* Reduce overall food wastage in communities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Future Enhancements
 
-## How can I deploy this project?
+* AI-based food demand prediction
+* Location-based donor-recipient matching
+* Real-time notifications
+* Mobile application support
+* Analytics dashboard for NGOs
+* Food pickup and delivery tracking
 
-Simply open [Lovable](https://lovable.dev/projects/2109966e-7823-43ac-890c-15aeeb2f5cad) and click on Share -> Publish.
+## Author
 
-## Can I connect a custom domain to my Lovable project?
+**Nandini A**
 
-Yes it is!
+B.Tech Student | Aspiring Software Developer
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is developed for educational and social impact purposes.
